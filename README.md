@@ -2,9 +2,9 @@
 
 Installation / Usage
 --------------------
-
-$WpPodsImporter = new Roxielfr\WpPodsImport\Controller\MainController();
 ```
+$WpPodsImporter = new Roxielfr\WpPodsImport\Controller\MainController();
+
 $state = $WpPodsImporter->import('post',plugin_dir_path(__FILE__) . "import/", 'Products.xlsx',
     [
         'titre' => 
