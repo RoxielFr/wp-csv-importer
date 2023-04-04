@@ -1,9 +1,15 @@
 {
     "name": "roxielfr/wp-pods-import",
     "description": "Un importateur Excel pour le Framework Pods de WordPress avec prise en charge des types de champs personnalisés.",
+    "keywords": [
+        "wordpress",
+        "pods",
+        "import"
+    ],
     "type": "library",
     "version": "1.0.0",
     "license": "WTFPL",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.2.0",
         "phpoffice/phpspreadsheet": "^1.25",
