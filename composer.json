@@ -9,7 +9,7 @@
     "type": "library",
     "version": "1.0.0",
     "license": "WTFPL",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2.0",
         "phpoffice/phpspreadsheet": "^1.25",
